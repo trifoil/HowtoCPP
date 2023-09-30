@@ -24,6 +24,7 @@ the others functions are placed before the main function or after (in which case
 ```
 int functionplacedbefore();
 int functionplacedafter();
+
 int main()
 {
 
