@@ -64,6 +64,9 @@ float variableName = valuef;
 
 ### Static Variables And Pass By Reference
 
+You can pass an argument to a function by VALUE or by REFERENCE.
+If you pass by value, a temporary copy of this value is created for the function ONLY.
+
 ## CLI advanced softwares
 
 ## GUI softwares
