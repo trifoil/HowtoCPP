@@ -37,7 +37,11 @@ int functionplacedafter()
 
 }
 ```
+Every instruction you type, should have a semicolon at the end of it ```;```
+
 ### Variables
+
+
 
 ## CLI advanced softwares
 
