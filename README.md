@@ -58,7 +58,8 @@ Floats. You can use an f placed right after the variable value to mention explic
 ```
 float variableName = valuef;
 ```
-
+### Inputs and outputs
+### Conditions
 ### Loops
 
 ### Static Variables And Pass By Reference
