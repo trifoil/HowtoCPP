@@ -21,7 +21,7 @@ Included packages are written like this and have to be outside the main function
 #include <nameofyourpackage>
 ```
 
-the others functions are placed before the main function or after (in which case you will have to forward the declaration by typing the function name before the main, but with a semicolon instead of curly braces).
+The others functions are placed before the main function or after (in which case you will have to forward the declaration by typing the function name before the main, but with a semicolon instead of curly braces).
 
 ```
 int functionplacedbefore();
@@ -41,12 +41,23 @@ Every instruction you type, should have a semicolon at the end of it ```;```
 
 ### Variables
 
-integers are declared as :
+Integers (which value can go from -2147483648 to 2147483647) are declared as :
 
 ```
 int variableName = value;
 ```
 
+Doubles can represent any numerical value in the compiler, including decimal values :
+
+```
+double variableName = value;
+```
+
+Floats. You can use an f placed right after the variable value to mention explicitly that the number is float. Otherwise the compiler will see it as double and which will never match to a float parameter given in the function :
+
+```
+float variableName = valuef;
+```
 
 ## CLI advanced softwares
 
