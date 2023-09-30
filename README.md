@@ -3,7 +3,9 @@ C++ quick tutorial
 ## Introduction
 Since I'm busy learning C++, why not writing it here? 
 
-## CLI programs
+## CLI basic softwares
+
+### Basics
 
 Any code will require a main function to work :
 ```
@@ -35,7 +37,9 @@ int functionplacedafter()
 
 }
 ```
+### Variables
 
+## CLI advanced softwares
 
-## GUI programs
+## GUI softwares
 
