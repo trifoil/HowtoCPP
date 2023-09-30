@@ -41,6 +41,11 @@ Every instruction you type, should have a semicolon at the end of it ```;```
 
 ### Variables
 
+integers are declared as :
+
+```
+int variableName = value;
+```
 
 
 ## CLI advanced softwares
