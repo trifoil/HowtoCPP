@@ -5,12 +5,18 @@ Since I'm busy learning C++, why not writing it here?
 
 ## CLI programs
 
-Included packages are written like this
+Included packages are written like this :
 
 ```
-#include <iostream>
+#include <nameofyourpackage>
 ```
+Any code will require a main function to work
+```
+int main()
+{
 
+}
+```
 
 ## GUI programs
 
