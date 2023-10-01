@@ -68,6 +68,9 @@ A pointer is a variable that holds the memory address of another variable. A poi
 
 ### References
 
+A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object. 
+A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e., the compiler will apply the * operator for you.
+
 ### Static Variables And Pass By Reference
 
 You can pass an argument to a function by VALUE or by REFERENCE.
