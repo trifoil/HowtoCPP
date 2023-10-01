@@ -94,3 +94,11 @@ If you pass by value, a temporary copy of this value is created for the function
 
 ## GUI softwares
 
+
+## Helpful links
+
+https://www.geeksforgeeks.org/pointers-vs-references-cpp/
+
+https://www.youtube.com/watch?v=hQ2I8D2ogrs&list=PLSPw4ASQYyynKPY0I-QFHK0iJTjnvNUys&pp=iAQB
+
+https://www.youtube.com/watch?v=FxCC9Ces1Yg&list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW&pp=iAQB
