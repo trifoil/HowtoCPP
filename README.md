@@ -70,13 +70,20 @@ Declare your pointer like this :
 
 ```
 int i = 3; 
-int *ptr = &i; 
+int *pointer = &i; 
 ```
 
 ### References
 
 A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object. 
 A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e., the compiler will apply the * operator for you.
+
+Declare your reference like this :
+
+```
+int i = 3; 
+int &reference = i;
+```
 
 ### Static Variables And Pass By Reference
 
