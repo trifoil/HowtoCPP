@@ -66,6 +66,13 @@ float variableName = valuef;
 
 A pointer is a variable that holds the memory address of another variable. A pointer needs to be dereferenced with the * operator to access the memory location it points to
 
+Declare your pointer like this :
+
+```
+int i = 3; 
+int *ptr = &i; 
+```
+
 ### References
 
 A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object. 
