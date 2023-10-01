@@ -62,6 +62,12 @@ float variableName = valuef;
 ### Conditions
 ### Loops
 
+### Pointers 
+
+A pointer is a variable that holds the memory address of another variable. A pointer needs to be dereferenced with the * operator to access the memory location it points to
+
+### References
+
 ### Static Variables And Pass By Reference
 
 You can pass an argument to a function by VALUE or by REFERENCE.
