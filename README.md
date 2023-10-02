@@ -103,11 +103,12 @@ A reference variable is an alias, that is, another name for an already existing 
 A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e., the compiler will apply the * operator for you.
 
 Declare your reference like this :
-
 ```
 int i = 3; 
 int &reference = i;
 ```
+A reference is <span style="color:blue">some *blue* always declared and initialized in one step</span>.
+
 
 ### Static Variables And Pass By Reference
 
