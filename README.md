@@ -66,7 +66,14 @@ float variableName = valuef;
 
 A pointer is a variable that holds the memory address of another variable. A pointer needs to be dereferenced with the * operator to access the memory location it points to
 
-Declare your pointer like this :
+A pointer can either be declared and initialized later or at the same time like this :
+```
+int i = 3; 
+int *pointer;
+pointer = &i;
+```
+
+Is similar to :
 
 ```
 int i = 3; 
@@ -89,6 +96,11 @@ int &reference = i;
 
 You can pass an argument to a function by VALUE or by REFERENCE.
 If you pass by value, a temporary copy of this value is created for the function ONLY.
+
+
+### Classes and objects
+
+
 
 ## CLI advanced softwares
 
