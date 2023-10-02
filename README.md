@@ -71,8 +71,11 @@ while(condition)
 ```
 While the other runs at least one time and the condition is checked after one run of the loop :
 ```
-Do{}
-While()
+do
+{
+
+}
+while();
 ```
 ### Pointers 
 
