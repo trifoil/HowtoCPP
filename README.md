@@ -107,7 +107,7 @@ Declare your reference like this :
 int i = 3; 
 int &reference = i;
 ```
-A reference is <span style="color:blue">always declared and initialized in one step</span>.
+⚠️ A reference is always declared and initialized in one step.
 
 
 ### Static Variables And Pass By Reference
