@@ -66,14 +66,14 @@ float variableName = valuef;
 
 A pointer is a variable that holds the memory address of another variable. A pointer needs to be dereferenced with the * operator to access the memory location it points to
 
-A pointer can either be declared and initialized later or at the same time like this :
+A pointer can either be declared and initialized later :
 ```
 int i = 3; 
 int *pointer;
 pointer = &i;
 ```
 
-Is similar to :
+Or at the same time like this :
 
 ```
 int i = 3; 
