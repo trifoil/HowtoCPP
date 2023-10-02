@@ -80,6 +80,23 @@ int i = 3;
 int *pointer = &i; 
 ```
 
+Here is an example :
+```
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int maVariable = 5;
+int *pointeur = &maVariable;
+cout << "the pointer points towards the address " << pointeur << " where is stored the value " << *pointeur;
+
+return 0;
+}
+
+```
+
 ### References
 
 A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object. 
