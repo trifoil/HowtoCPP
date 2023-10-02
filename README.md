@@ -61,7 +61,19 @@ float variableName = valuef;
 ### Inputs and outputs
 ### Conditions
 ### Loops
+Two types of loops in C++ : While and Do While.
+The first one checks the condition prior to running the code inside of it :
+```
+while(condition)
+{
 
+}
+```
+While the other runs at least one time and the condition is checked after one run of the loop :
+```
+Do{}
+While()
+```
 ### Pointers 
 
 A pointer is a variable that holds the memory address of another variable. A pointer needs to be dereferenced with the * operator to access the memory location it points to
