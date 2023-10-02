@@ -75,7 +75,11 @@ do
 {
 
 }
-while();
+while(condition);
+```
+The instruction to break out of a loop is simply :
+```
+break;
 ```
 ### Pointers 
 
