@@ -60,6 +60,13 @@ float variableName = valuef;
 ```
 ### Inputs and outputs
 ### Conditions
+```
+if()
+{
+
+}
+```
+
 ### Loops
 Two types of loops in C++ : While and Do While.
 The first one checks the condition prior to running the code inside of it :
