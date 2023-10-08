@@ -213,6 +213,7 @@ int main(int argc, char* args[]) {
     SDL_Quit();
     return 0;
 }
+
 ```
 
 ## Helpful links
