@@ -179,37 +179,26 @@ int main(int argc, char* args[]) {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
         printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
         return 1;
-    
-
-    // Create a window
+    }
     SDL_Window* window = SDL_CreateWindow("Tonk (master)", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, SDL_WINDOW_SHOWN);
-
+    SDL_Window* window2 = SDL_CreateWindow("Tonk (slave)", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, SDL_WINDOW_SHOWN);
     if (window == NULL) {
         printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
         return 1;
     }
-
-    // Run the event loop
     bool quit = false;
     SDL_Event e;
-
     while (!quit) {
         while (SDL_PollEvent(&e) != 0) {
             if (e.type == SDL_QUIT) {
                 quit = true;
             }
         }
-
-        // Your game logic goes here
-
-        // Render graphics (not implemented in this basic example)
-
         // Delay to control frame rate (optional)
         SDL_Delay(16);  // Aim for approximately 60 FPS
     }
-
-    // Clean up and exit
     SDL_DestroyWindow(window);
+    SDL_DestroyWindow(window2);
     SDL_Quit();
     return 0;
 }
