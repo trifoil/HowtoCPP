@@ -2,6 +2,15 @@
 C++ quick tutorial
 ## Introduction
 Since I'm busy learning C++, why not writing it here? 
+## The G++ comiler
+To compile your code, use this line :
+```
+g++ main.cpp -w -lSDL2 -o main
+```
+To run your code :
+```
+./main
+```
 
 ## CLI basic softwares
 
