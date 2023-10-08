@@ -168,7 +168,7 @@ int main(int argc, char* args[]){
 
 As you can read, this fuction initializes the SDL library 
 
-```
+
 For creating our first window, we will use this code :
 
 ```
