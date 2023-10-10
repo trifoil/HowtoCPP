@@ -163,6 +163,18 @@ If you pass by value, a temporary copy of this value is created for the function
 
 ## GUI softwares (how to SDL)
 
+How to install 
+
+```
+git clone https://github.com/libsdl-org/SDL.git -b SDL2
+cd SDL
+mkdir build
+cd build
+../configure
+make
+sudo make install
+```
+
 First we have to make a call for the most important function we will use
 
 ```
@@ -175,7 +187,7 @@ int main(int argc, char* args[]){
 }
 ```
 
-As you can read, this fuction initializes the SDL library 
+As you can read, this function initializes the SDL library 
 
 
 For creating our first window, we will use this code :
