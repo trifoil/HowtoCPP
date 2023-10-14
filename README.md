@@ -159,7 +159,17 @@ If you pass by value, a temporary copy of this value is created for the function
 
 > A class in C++ is a user-defined data type that encapsulates data and functions into a single unit, providing a blueprint for creating objects with specific attributes and behaviors.
 
-> In C++, an object is a specific instance of a class, which encapsulates data and methods, allowing for the instantiation and manipulation of the class's attributes and behaviors in a program.
+And therefore, 
+
+> An object is a specific instance of a class, which encapsulates data and methods, allowing for the instantiation and manipulation of the class's attributes and behaviors in a program.
+
+A class is declared before the main function like this :
+
+```
+class User {};
+
+int main() {}
+```
 
 ## CLI advanced softwares
 
