@@ -16,12 +16,9 @@ To run your code :
 
 ### Basics
 
-Any code will require a main function to work :
+Any code will require a main function to work (your working code has to be in the brackets :
 ```
-int main()
-{
-
-}
+int main(){}
 ```
 
 Included packages are written like this and have to be outside the main function :
@@ -33,10 +30,7 @@ Included packages are written like this and have to be outside the main function
 The others functions are placed before the main function or after (in which case you will have to forward the declaration by typing the function name before the main, but with a semicolon instead of curly braces).
 
 ```
-int functionplacedbefore()
-{
-
-}
+int functionplacedbefore(){}
 
 int functionplacedafter();
 
@@ -45,10 +39,7 @@ int main()
 
 }
 
-int functionplacedafter()
-{
-
-}
+int functionplacedafter(){}
 ```
 Every instruction you type, should have a semicolon at the end of it ```;```
 
