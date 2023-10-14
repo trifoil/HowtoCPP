@@ -34,13 +34,16 @@ int functionplacedbefore(){}
 
 int functionplacedafter();
 
-int main()
-{
-
-}
+int main(){}
 
 int functionplacedafter(){}
 ```
+A void function is a type of function in programming that does not return a value when it is executed but may perform certain tasks or operations within the program : 
+
+```
+void functionIdontWantToGetAnOutputFrom(){}
+```
+
 Every instruction you type, should have a semicolon at the end of it ```;```
 
 ### Variables
@@ -65,27 +68,18 @@ float variableName = valuef;
 ### Inputs and outputs
 ### Conditions
 ```
-if()
-{
-
-}
+if(){}
 ```
 
 ### Loops
 Two types of loops in C++ : While and Do While.
 The first one checks the condition prior to running the code inside of it :
 ```
-while(condition)
-{
-
-}
+while(condition){}
 ```
 While the other runs at least one time and the condition is checked after one run of the loop :
 ```
-do
-{
-
-}
+do{}
 while(condition);
 ```
 The instruction to break out of a loop is simply :
