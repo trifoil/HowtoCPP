@@ -5,8 +5,11 @@ Since I'm busy learning C++, why not writing it here?
 ## The g++ compiler
 To compile your code, use this line :
 ```
-g++ main.cpp -w -lSDL2 -o main
+g++ main.cpp User.cpp -w -lSDL2 -lSDL2_ttf -o main
 ```
+
+You compile two files with the dependancies ```lSDL2``` et ```lSDL2_ttf``` avec comme nom de sortie ```main```
+
 To run your code :
 ```
 ./main
