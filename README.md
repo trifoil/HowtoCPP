@@ -1,10 +1,16 @@
 [![en](https://img.shields.io/badge/lang-en-gre.svg)](https://github.com/trifoil/HowtoCPP/blob/main/README.md) 
 # HowtoCPP
 Complete basics in C++ programming. (Why TF am I even doing that? At least, it's not assembly)
-## Table of contents
+## Table of contents <a name="toc"></a>
 0. [Table of contents](#toc)
 1. [Introduction](#intro)
-2. [Compiler installation](#compiler)
+2. [Compiler](#compiler)
+    <details>
+    <summary>More</summary>
+
+    1. [Install the compiler](#compilerinstall)
+    2. [Rubn the compiler](#compileruse)
+    </details>
 3. [The basics (CLI)](#basics)
     <details>
     <summary>More</summary>
@@ -55,7 +61,17 @@ Complete basics in C++ programming. (Why TF am I even doing that? At least, it's
 
 ## Introduction <a name="intro"></a>
 
-## Compiler installation <a name="compiler"></a>
+This tutorial goes through procedural and object oriented programming.
+
+The last part is dedicated to the use of the SDL2 library.
+
+My tutorial is aimed at Linux users. For further explanations about installing libraries or software on windows, do your own research.
+
+## Compiler <a name="compiler"></a>
+
+### Compiler installation <a name="compilerinstall"></a>
+
+### Compiler use <a name="compileruse"></a>
 
 ## The basics (CLI) <a name="basics"></a>
 
