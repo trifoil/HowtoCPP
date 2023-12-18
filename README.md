@@ -3,41 +3,59 @@
 C++ quick tutorial
 
 ## Table of contents
-
+0. [Table of contents](#toc)
 1. [Introduction](#intro)
 2. [Compiler installation](#compiler)
 3. [The basics (CLI)](#basics)
-   1. [Comments](#comments)
-   1. [The basic program](#base)
-   2. [Variables](#vars)
-   2. [Chars and strings](#charandstrings)
-   2. [Standard input](std#)
-   2. [If statement](if#)
-   2. [If-else](#ifelse)
-   2. [Loops](#loops)
-   2. [RNG (random number generator)](#rng)
-   2. [Bools](#bools)
-   2. [Functions](#functions)
-   2. [Parameters and forward declarations](#)
-   2. [Static vars and pass by reference](#)
-   2. [Arrays](#)
-4. [OOP (CLI)](#oop)
-   1. [Classes](#classes)
-   2. [Objects](#objects)
-   2. [Access specifiers](#)
-   2. [Files and constructor separation](#)
-   2. [Vectors](#)
-   2. [Lists](#)
-   2. [File IO / advanced input](#)
-   2. [Printf](#)
-   2. [](#)
-   2. [](#)
+    <details>
+    <summary>More</summary>
 
-4. [Advanced programming (Graphics)](#)
-   1. [](#)
-   2. [](#)
-5. [Conclusion](#conclusion)
-6. [Sources](#sources)
+    1. [Comments](#comments)
+    2. [The basic program](#base)
+    3. [Variables](#vars)
+    4. [Chars and strings](#charandstrings)
+    5. [Standard input](std#)
+    6. [If statement](if#)
+    7. [If-else](#ifelse)
+    8. [Loops](#loops)
+    9. [RNG (random number generator)](#rng)
+    10. [Bools](#bools)
+    11. [Functions](#functions)
+    12. [Parameters and forward declarations](#)
+    13. [Static vars and pass by reference](#)
+    14. [Arrays](#)
+    </details>
+
+
+
+4. [OOP (CLI)](#oop)
+    <details>
+    <summary>More</summary>
+
+    1. [Classes](#classes)
+    2. [Objects](#objects)
+    2. [Access specifiers](#)
+    2. [Files and constructor separation](#)
+    2. [Vectors](#)
+    2. [Lists](#)
+    2. [File IO / advanced input](#)
+    2. [Printf](#)
+    2. [](#)
+    2. [](#)
+    </details>
+
+5. [Advanced programming (Graphics)](#)
+    <details>
+    <summary>More</summary>
+
+    1. [](#)
+    2. [](#)
+
+    </details>
+
+
+6. [Conclusion](#conclusion)
+7. [Sources](#sources)
 
 ## Introduction
 
