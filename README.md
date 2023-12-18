@@ -97,19 +97,19 @@ Included packages are written like this and have to be outside the main function
 Integers (which value can go from -2147483648 to 2147483647) are declared as :
 
 ```
-int variableName = value;
+int variableName = <value>;
 ```
 
 Doubles can represent any numerical value in the compiler, including decimal values :
 
 ```
-double variableName = value;
+double variableName = <value>;
 ```
 
 Floats. You can use an f placed right after the variable value to mention explicitly that the number is float. Otherwise the compiler will see it as double and which will never match to a float parameter given in the function :
 
 ```
-float variableName = valuef;
+float variableName = <valuef>;
 ```
 
 ## OOP (CLI) <a name="oop"></a>
