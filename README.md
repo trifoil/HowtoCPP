@@ -1,7 +1,6 @@
 [![en](https://img.shields.io/badge/lang-en-gre.svg)](https://github.com/trifoil/HowtoCPP/blob/main/README.md) 
 # HowtoCPP
-C++ quick tutorial
-
+Complete basics in C++ programming. (Why TF am I even doing that? At least, it's not assembly)
 ## Table of contents
 0. [Table of contents](#toc)
 1. [Introduction](#intro)
@@ -26,8 +25,6 @@ C++ quick tutorial
     14. [Arrays](#)
     </details>
 
-
-
 4. [OOP (CLI)](#oop)
     <details>
     <summary>More</summary>
@@ -44,37 +41,28 @@ C++ quick tutorial
     2. [](#)
     </details>
 
-5. [Advanced programming (Graphics)](#)
+5. [Advanced programming (Graphics)](#advanced)
     <details>
     <summary>More</summary>
 
     1. [](#)
     2. [](#)
-
     </details>
 
 
 6. [Conclusion](#conclusion)
 7. [Sources](#sources)
 
-## Introduction
+## Introduction <a name="intro"></a>
 
+## Compiler installation <a name="compiler"></a>
 
+## The basics (CLI) <a name="basics"></a>
 
-## Compiler installation
+## OOP (CLI) <a name="oop"></a>
 
+## Advanced programming (Graphics) <a name="advanced"></a>
 
+## Conclusion <a name="conclusion"></a>
 
-## The basics (CLI)
-
-
-
-## Advanced programming (Graphics)
-
-
-
-## Conclusion
-
-
-
-## Sources
+## Sources <a name="sources"></a>
