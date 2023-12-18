@@ -75,6 +75,43 @@ My tutorial is aimed at Linux users. For further explanations about installing l
 
 ## The basics (CLI) <a name="basics"></a>
 
+### Comments <a name="comments"></a>
+
+### The basic program <a name="base"></a>
+
+Any code will require a main function to work (your working code has to be in the brackets :
+```
+int main(){}
+```
+
+Arguments are placed in the ```()``` and the main code is placed in the ```{}```
+
+Included packages are written like this and have to be outside the main function :
+
+```
+#include <nameofyourpackage>
+```
+
+### Variables <a name="vars"></a>
+
+Integers (which value can go from -2147483648 to 2147483647) are declared as :
+
+```
+int variableName = value;
+```
+
+Doubles can represent any numerical value in the compiler, including decimal values :
+
+```
+double variableName = value;
+```
+
+Floats. You can use an f placed right after the variable value to mention explicitly that the number is float. Otherwise the compiler will see it as double and which will never match to a float parameter given in the function :
+
+```
+float variableName = valuef;
+```
+
 ## OOP (CLI) <a name="oop"></a>
 
 ## Advanced programming (Graphics) <a name="advanced"></a>
