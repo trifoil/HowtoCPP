@@ -94,6 +94,8 @@ Or block comments, that can include multiple lines ```/*``` starts the comment, 
 */
 ```
 
+---
+
 
 ### The basic program <a name="base"></a>
 
@@ -115,8 +117,6 @@ Included libraries are written like this and have to be outside the main functio
 ```
 
 This allows the use functionalities from external libraries, and without them, the compiler won't recognize certain functions or objects.
-
-Certainly! Here's a revised version of the "Variables" chapter:
 
 ---
 
@@ -188,6 +188,14 @@ char grade = 'A';
 - Choose descriptive names to enhance code readability.
 
 Understanding these basics about variables sets the stage for more complex programming tasks. In the next chapter, we'll explore how to manipulate variables through operations and expressions.
+
+---
+
+
+
+
+
+
 
 ## OOP (CLI) <a name="oop"></a>
 
