@@ -18,17 +18,18 @@ Complete basics in C++ programming. (Why TF am I even doing that? At least, it's
     1. [Comments](#comments)
     2. [The basic program](#base)
     3. [Variables](#vars)
-    4. [Chars and strings](#charandstrings)
-    5. [Standard input](std#)
-    6. [If statement](if#)
-    7. [If-else](#ifelse)
-    8. [Loops](#loops)
-    9. [RNG (random number generator)](#rng)
-    10. [Bools](#bools)
-    11. [Functions](#functions)
-    12. [Parameters and forward declarations](#)
-    13. [Static vars and pass by reference](#)
-    14. [Arrays](#)
+    4. [Print outputs](#cout)
+    5. [Chars and strings](#charandstrings)
+    6. [Standard input](std#)
+    7. [If statement](if#)
+    8. [If-else](#ifelse)
+    9. [Loops](#loops)
+    10. [RNG (random number generator)](#rng)
+    11. [Bools](#bools)
+    12. [Functions](#functions)
+    13. [Parameters and forward declarations](#)
+    14. [Static vars and pass by reference](#)
+    15. [Arrays](#)
     </details>
 
 4. [OOP (CLI)](#oop)
@@ -77,40 +78,116 @@ My tutorial is aimed at Linux users. For further explanations about installing l
 
 ### Comments <a name="comments"></a>
 
+To write comments in your code there are two ways :
+
+Either line comments :
+
+```
+// this is a line comment
+```
+
+Or block comments, that can include multiple lines ```/*``` starts the comment, and ```*/``` ends it :
+
+```
+/*  comment
+    also comment
+*/
+```
+
+
 ### The basic program <a name="base"></a>
 
 Any code will require a main function to work (your working code has to be in the brackets :
 ```
-int main(){}
+int main(){
+
+}
 ```
 
 Arguments are placed in the ```()``` and the main code is placed in the ```{}```
 
-Included packages are written like this and have to be outside the main function :
+The int return type indicates the program's exit status (0 usually means successful execution, while non-zero values indicate errors). 
+
+Included libraries are written like this and have to be outside the main function :
 
 ```
 #include <nameofyourpackage>
 ```
 
+This allows the use functionalities from external libraries, and without them, the compiler won't recognize certain functions or objects.
+
+Certainly! Here's a revised version of the "Variables" chapter:
+
+---
+
 ### Variables <a name="vars"></a>
 
-Integers (which value can go from -2147483648 to 2147483647) are declared as :
+In C++, variables are essential components that store and manage data in your program. Understanding how to declare and use variables is fundamental to writing effective code.
 
-```
+#### Integer Variables:
+
+Integers represent whole numbers and can be positive or negative. The `int` data type is commonly used for integers. Here's how you declare an integer variable:
+
+```cpp
 int variableName = <value>;
 ```
 
-Doubles can represent any numerical value in the compiler, including decimal values :
+For example:
 
-```
-double variableName = <value>;
+```cpp
+int age = 25;
 ```
 
-Floats. You can use an f placed right after the variable value to mention explicitly that the number is float. Otherwise the compiler will see it as double and which will never match to a float parameter given in the function :
+Keep in mind that the size of an `int` may vary depending on the compiler and platform. If you need to represent only non-negative integers, you can use `unsigned int`.
 
+#### Floating-Point Variables:
+
+Floating-point numbers are used to represent values with a fractional part. There are two main types in C++: `float` and `double`. 
+
+- **Float:**
+  ```cpp
+  float variableName = <value>f;
+  ```
+  For example:
+  ```cpp
+  float temperature = 23.5f;
+  ```
+
+  Remember to include the `f` at the end to explicitly specify that the number is a `float`.
+
+- **Double:**
+  ```cpp
+  double variableName = <value>;
+  ```
+  For example:
+  ```cpp
+  double pi = 3.14159;
+  ```
+
+  Use `double` when you need higher precision, as it can represent a broader range of values compared to `float`.
+
+#### Character Variables:
+
+Characters are used to store individual characters. The `char` data type is employed for this purpose:
+
+```cpp
+char variableName = '<character>';
 ```
-float variableName = <valuef>;
+
+For example:
+
+```cpp
+char grade = 'A';
 ```
+
+#### Naming Conventions:
+
+- Variable names must start with a letter or an underscore.
+- Subsequent characters can be letters, numbers, or underscores.
+- Avoid using reserved keywords.
+- Choose descriptive names to enhance code readability.
+
+Understanding these basics about variables sets the stage for more complex programming tasks. In the next chapter, we'll explore how to manipulate variables through operations and expressions.
 
 ## OOP (CLI) <a name="oop"></a>
 
